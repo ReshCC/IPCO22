@@ -26,7 +26,7 @@ for i in range(0,int(T/2)):
 for i in range(0, T-1):
     week.append(i)
 
-print(teami, teamj, period, week)
+#print(teami, teamj, period, week)
 
 #creat model
 tsp_model = gp.Model("tsp")
